@@ -1,6 +1,6 @@
 # Project-IA-Alura-FIAP-Google-Teckins
 
-##Project AI - Alura X FIAP X Google X Teckins by Cristiano Santos
+## Project AI - Alura X FIAP X Google X Teckins by Cristiano Santos
 
 # Documentação do Projeto: Automação de Publicação de Posts no WordPress com IA
 
