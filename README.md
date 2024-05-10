@@ -10,7 +10,7 @@
 
 [Video da integração em funcionamento](https://youtu.be/tWDA-WcueNM)
 
-# Documentação do Projeto: Automação de Publicação de Posts no WordPress com IA
+# Automação de Publicação de Posts no WordPress com IA
 
 ## Introdução
 Este projeto visa automatizar a criação e publicação de posts em um blog WordPress utilizando a API RESTful do WordPress e conteúdo gerado pela IA Google Gemini. O objetivo é auxiliar na produção de conteúdo de forma mais eficiente e escalável.
