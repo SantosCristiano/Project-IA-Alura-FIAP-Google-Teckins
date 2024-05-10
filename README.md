@@ -11,9 +11,11 @@ Este projeto visa automatizar a criação e publicação de posts em um blog Wor
 # 1. Obter Token JWT
 A função obter_token_jwt é responsável por adquirir um token JWT para autenticação na API RESTful do WordPress. Para isso, são necessários os dados de acesso do usuário, como nome de usuário e senha.
 
-Python
+```Python
 
 def obter_token_jwt(base_url, username, password):
+
+```
 
 Observações:
 
@@ -23,9 +25,11 @@ As credenciais de acesso devem ser armazenadas de forma segura, evitando exposi�
 # 2. Validar Token JWT
 A função validar_token_jwt verifica se o token JWT obtido é válido e se o usuário possui as permissões necessárias para acessar a API.
 
-Python
+```Python
 
 def validar_token_jwt(base_url, token):
+
+```
 
 Observações:
 
@@ -35,9 +39,11 @@ Em caso de token inválido ou sem as permissões adequadas, o script deve notifi
 # 3. Obter Posts
 A função obter_posts recupera uma lista de posts do WordPress utilizando o token JWT para autenticação.
 
-Python
+```Python
 
 def obter_posts(base_url, token):
+
+```
 
 Observações:
 
@@ -47,9 +53,11 @@ A função exibe o ID e o título de cada post recuperado.
 4. Criar Postagem
 A função criar_postagem utiliza o token JWT para publicar um novo post no WordPress, definindo o conteúdo gerado pela IA e o status como "rascunho" para revisão posterior.
 
-Python
+```Python
 
 def criar_postagem(base_url, token, titulo, conteudo):
+
+```
     
 Observações:
 
@@ -58,7 +66,7 @@ O status "rascunho" permite que os editores ou administradores do blog revisam e
 5. Exemplo de Uso
 O código final inclui um exemplo de uso das funções, demonstrando o fluxo completo de obtenção de token, validação, recuperação de posts e criação de uma nova postagem.
 
-Python
+```Python
 
   base_url = "https://blog.teckins.com"
   username = "seu_usuario"
@@ -74,6 +82,8 @@ Python
       criar_postagem(base_url, token_jwt, titulo, conteudo)
   else:
       print("Token inválido! Verifique as credenciais de acesso.")
+
+```
       
 
 Observações:
