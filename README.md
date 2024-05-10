@@ -6,6 +6,10 @@
 
 [Linkedin Cristiano Santos](https://www.linkedin.com/in/cris-santos-038100100/)
 
+# Video de apresentação
+
+[Video da integração em funcionamento](https://youtu.be/tWDA-WcueNM)
+
 # Documentação do Projeto: Automação de Publicação de Posts no WordPress com IA
 
 ## Introdução
