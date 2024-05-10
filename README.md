@@ -1,6 +1,8 @@
 # Project-IA-Alura-FIAP-Google-Teckins by Cristiano Santos
 
-[Teckins.com](https://www.teckins.com/)
+[Site Teckins](https://www.teckins.com/)
+[Blog Teckins](https://blog.teckins.com/)
+[Linkedin Cristiano Santos](https://www.linkedin.com/in/cris-santos-038100100/)
 
 # Documentação do Projeto: Automação de Publicação de Posts no WordPress com IA
 
