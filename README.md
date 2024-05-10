@@ -106,9 +106,13 @@ Este script oferece uma base para automatizar a publicação de posts no WordPre
 ## Melhorias Possíveis:
 
 Implementar tratamento de erros mais abrangente para lidar com diferentes cenários de falha.
+
 Incluir opções para agendar a publicação de posts em horários específicos.
+
 Integrar com ferramentas de SEO para otimizar os posts para pesquisa.
+
 Criar um painel de controle para gerenciar tokens, visualizar posts e configurar parâmetros de publicação.
+
 Lembre-se de que a automatização da criação de conteúdo deve ser utilizada como uma ferramenta para auxiliar na produção, mas não substitui completamente a revisão e curadoria humana para garantir a qualidade e relevância dos posts.
 
 ## Documentação do Wordpress REST API
