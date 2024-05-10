@@ -115,4 +115,5 @@ A API RESTful do Wordpress oferece uma variedade de endpoints para interagir com
 ## Links de Apoio:
 
 [API Restful do Wordpress - Felipe Elia](https://felipeelia.com.br/a-api-rest-do-wordpress/)
+
 [Wordpress REST API - Kinsta](https://kinsta.com/pt/blog/wordpress-rest-api/)
