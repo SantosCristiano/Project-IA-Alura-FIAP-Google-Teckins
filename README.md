@@ -2,6 +2,7 @@
 Project AI - Alura X FIAP X Google X Teckins by Cristiano Santos
 
 Documentação do Projeto: Automação de Publicação de Posts no WordPress com IA
+
 Introdução
 Este projeto visa automatizar a criação e publicação de posts em um blog WordPress utilizando a API RESTful do WordPress e conteúdo gerado pela IA Google Gemini. O objetivo é auxiliar na produção de conteúdo de forma mais eficiente e escalável.
 
@@ -10,8 +11,10 @@ Documentação detalhada
 A função obter_token_jwt é responsável por adquirir um token JWT para autenticação na API RESTful do WordPress. Para isso, são necessários os dados de acesso do usuário, como nome de usuário e senha.
 
 Python
+
 def obter_token_jwt(base_url, username, password):
-    # ... (código original da função)
+
+# ... (código original da função)
 
 Observações:
 
@@ -21,24 +24,30 @@ As credenciais de acesso devem ser armazenadas de forma segura, evitando exposi�
 A função validar_token_jwt verifica se o token JWT obtido é válido e se o usuário possui as permissões necessárias para acessar a API.
 
 Python
+
 def validar_token_jwt(base_url, token):
-    # ... (código original da função)
+
+# ... (código original da função)
 
 Observações:
 
 A validação do token é crucial para garantir a segurança da API e evitar acessos não autorizados.
 Em caso de token inválido ou sem as permissões adequadas, o script deve notificar o usuário e interromper o processo de publicação.
+
 3. Obter Posts
 A função obter_posts recupera uma lista de posts do WordPress utilizando o token JWT para autenticação.
 
 Python
+
 def obter_posts(base_url, token):
-    # ... (código original da função)
+
+# ... (código original da função)
 
 Observações:
 
 Esta função pode ser útil para fins de monitoramento ou para recuperar posts específicos para edição ou exclusão.
 A função exibe o ID e o título de cada post recuperado.
+
 4. Criar Postagem
 A função criar_postagem utiliza o token JWT para publicar um novo post no WordPress, definindo o conteúdo gerado pela IA e o status como "rascunho" para revisão posterior.
 
@@ -54,6 +63,7 @@ O status "rascunho" permite que os editores ou administradores do blog revisam e
 O código final inclui um exemplo de uso das funções, demonstrando o fluxo completo de obtenção de token, validação, recuperação de posts e criação de uma nova postagem.
 
 Python
+
   base_url = "https://blog.teckins.com"
   username = "seu_usuario"
   password = "sua_senha"
@@ -68,6 +78,7 @@ Python
       criar_postagem(base_url, token_jwt, titulo, conteudo)
   else:
       print("Token inválido! Verifique as credenciais de acesso.")
+      
 # ... (código original de exemplo de uso)
 
 Observações:
