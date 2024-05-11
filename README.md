@@ -1,10 +1,6 @@
 # Project-IA-Alura-FIAP-Google-Teckins by Cristiano Santos
 
-[Site Teckins](https://www.teckins.com/)
-
-[Blog Teckins](https://blog.teckins.com/)
-
-[Linkedin Cristiano Santos](https://www.linkedin.com/in/cris-santos-038100100/)
+![Blog](https://www.teckins.com/chatbot/blog.png)
 
 # Video da integração em funcionamento
 
@@ -125,3 +121,11 @@ A API RESTful do Wordpress oferece uma variedade de endpoints para interagir com
 [API Restful do Wordpress - Felipe Elia](https://felipeelia.com.br/a-api-rest-do-wordpress/)
 
 [Wordpress REST API - Kinsta](https://kinsta.com/pt/blog/wordpress-rest-api/)
+
+## Links do Autor
+
+[Site Teckins](https://www.teckins.com/)
+
+[Blog Teckins](https://blog.teckins.com/)
+
+[Linkedin Cristiano Santos](https://www.linkedin.com/in/cris-santos-038100100/)
